@@ -5,5 +5,6 @@ module Types
     
     # user
     field :users, resolver: Resolvers::Users::GetAll
+    field :user, resolver: Resolvers::Users::GetById
   end
 end
